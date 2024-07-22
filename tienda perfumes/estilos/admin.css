@@ -1,0 +1,149 @@
+
+
+body {
+    background-image: url('imagenes/madre4.png'); 
+    background-position: center;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: white;
+    margin: 0;
+    padding: 0;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  :root {
+    --primary-color: blue;
+    --secondary-color: #17eb56;
+  }
+  
+  .contenedor-principal {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(17, 230, 88, 0.7);
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .titulo-principal {
+    text-align: center;
+  }
+  
+  
+  
+  header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .logo {
+    width: 100px;
+    height: 100px;
+  }
+  
+  
+  
+  .admin-panel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .admin-panel img {
+    width: 100%;
+    max-width: 200px;
+    margin-bottom: 10px;
+  }
+  
+  .admin-text {
+    color: white;
+    text-align: center;
+  }
+  
+  .admin-text h2 {
+    margin-bottom: 10px;
+  }
+  
+  .admin-text ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .admin-text ul li {
+    margin-bottom: 10px;
+  }
+  
+  /* Formulario */
+  
+  .perfumeForm {
+    width: 100%;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+  
+  .perfumeForm label {
+    display: block;
+    margin-bottom: 5px;
+    color: white;
+  }
+  
+  .perfumeForm input[type="text"],
+  .perfumeForm input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .perfumeForm button {
+    padding: 8px 15px;
+    background-color: var(--primary-color);
+    color: rgb(6, 60, 235);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  
+  
+  .parfumList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .producto {  
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 30%;
+    min-width: 250px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    color: white;
+  }
+  
+  .producto img {
+    max-width: 50%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  
+  

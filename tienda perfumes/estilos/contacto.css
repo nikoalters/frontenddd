@@ -1,0 +1,32 @@
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 120px 0;
+    margin-bottom: 50px;
+}
+
+header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+header h2 {
+    font-size: 24px;
+}
+
+.contacto-container {
+    margin-top: 50px;
+}
+
+.contacto-info {
+    font-size: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
